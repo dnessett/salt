@@ -16,7 +16,6 @@ run-name: "<{ workflow_name }> (branch: ${{ github.ref_name }})"
 on:
   schedule:
     # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#onschedule
-    - cron: '0 */8 * * *'  # Run every 8 hours
 
 <%- endblock %>
 
